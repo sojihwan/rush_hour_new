@@ -1,0 +1,228 @@
+#title_name{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+
+}
+#first_background{
+    width: 100%;
+    height: 100%;
+}
+#main_list{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    
+    background-color: firebrick;
+}
+#page_list{
+    text-align: center;
+}
+#map{
+    background-color: rgba(128, 128, 128, 0.63);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    overflow: hidden;
+}
+.transverse1{
+    position: absolute;
+    top: 40px;
+    width: 500px;
+    color: rgb(175, 175, 175);
+    border:thin solid rgb(175, 175, 175);;
+}
+.length1{
+    position: absolute;
+    top: -9px;
+    left: 50px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse2{
+    position: absolute;
+    top: 90px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length2{
+    position: absolute;
+    top: -9px;
+    left: 100px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse3{
+    position: absolute;
+    top: 140px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length3{
+    position: absolute;
+    top: -9px;
+    left: 150px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse4{
+    position: absolute;
+    top: 190px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length4{
+    position: absolute;
+    top: -9px;
+    left: 200px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse5{
+    position: absolute;
+    top: 240px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length5{
+    position: absolute;
+    top: -9px;
+    left: 250px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse6{
+    position: absolute;
+    top: 240px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length6{
+    position: absolute;
+    top: -9px;
+    left: 300px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse7{
+    position: absolute;
+    top:290px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length7{
+    position: absolute;
+    top: -9px;
+    left: 350px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse8{
+    position: absolute;
+    top:340px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length8{
+    position: absolute;
+    top: -9px;
+    left: 400px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse9{
+    position: absolute;
+    top:390px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length9{
+    position: absolute;
+    top: -9px;
+    left: 450px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse10{
+    position: absolute;
+    top:440px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+#red_tank{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+}
+#armed_forces_armored_car{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#yellow_armored_car{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+#green_armored_car{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+#armed_forces_armored_car-1{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.panel1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-color: seagreen;
+    left: 80%;
+    top: 40%;
+}
+#hidden_button{
+    width:0px;
+    height: 0px;
+    overflow: hidden;
+    
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+
+.go_straight_car{
+    background-color: rgba(255, 255, 255, 0);
+}

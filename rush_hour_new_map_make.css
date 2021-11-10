@@ -1,0 +1,332 @@
+#title_name{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+
+}
+#first_background{
+    width: 100%;
+    height: 100%;
+}
+#main_list{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    
+    background-color: firebrick;
+}
+#page_list{
+    text-align: center;
+}
+#map{
+    background-color: rgba(128, 128, 128, 0.63);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+.transverse1{
+    position: absolute;
+    top: 40px;
+    width: 500px;
+    color: rgb(175, 175, 175);
+    border:thin solid rgb(175, 175, 175);;
+}
+.length1{
+    position: absolute;
+    top: -9px;
+    left: 50px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse2{
+    position: absolute;
+    top: 90px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length2{
+    position: absolute;
+    top: -9px;
+    left: 100px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse3{
+    position: absolute;
+    top: 140px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length3{
+    position: absolute;
+    top: -9px;
+    left: 150px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse4{
+    position: absolute;
+    top: 190px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length4{
+    position: absolute;
+    top: -9px;
+    left: 200px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse5{
+    position: absolute;
+    top: 240px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length5{
+    position: absolute;
+    top: -9px;
+    left: 250px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse6{
+    position: absolute;
+    top: 240px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length6{
+    position: absolute;
+    top: -9px;
+    left: 300px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse7{
+    position: absolute;
+    top:290px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length7{
+    position: absolute;
+    top: -9px;
+    left: 350px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse8{
+    position: absolute;
+    top:340px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length8{
+    position: absolute;
+    top: -9px;
+    left: 400px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse9{
+    position: absolute;
+    top:390px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+.length9{
+    position: absolute;
+    top: -9px;
+    left: 450px;
+    height: 500px;
+    color: rgb(175, 175, 175);;
+    border: thin solid rgb(175, 175, 175);;
+}
+.transverse10{
+    position: absolute;
+    top:440px;
+    width: 500px;
+    color: rgb(175, 175, 175);;
+    border:thin solid rgb(175, 175, 175);;
+}
+
+.panel1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-color: seagreen;
+    left: 80%;
+    top: 40%;
+}
+#ingredient1{
+    position: absolute;
+    background-color: rgba(144, 203, 238, 0.342);
+    left: 0%;
+    top:40%;
+    width: 300px;
+    height: 500px;
+}
+#ingredient2{
+    position: absolute;
+    background-color: rgba(238, 229, 144, 0.308);
+    left: 50%;
+    top:40%;
+    width: 600px;
+    height: 500px;
+}
+.go_straight_car{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+#yellow_armored{
+    width: 100px;
+    height: 50px;
+    cursor:pointer; 
+    cursor:hand;
+}
+
+#armed_forces_armored{
+    width: 200px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#green_armored{
+    width: 100px;
+    height: 50px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#green{
+    width: 100px;
+    height: 50px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#green_tank{
+    width: 100px;
+    height: 50px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#red_tank{
+    width: 100px;
+    height: 50px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#speed_airplane{
+    width: 100px;
+    height: 50px;
+    cursor:pointer; 
+    cursor:hand;
+}
+
+#yellow_armored1{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+
+#armed_forces_armored1{
+    width: 100px;
+    height: 200px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#green_armored1{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#green1{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#green_tank1{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#red_tank1{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#load_button{
+    width: 20px;
+    height: 40px;
+}
+#sad{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#bus{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#poisonous_mushroom{
+    width: 50px;
+    height: 100px;
+    cursor:pointer; 
+    cursor:hand;
+}
+#braille{
+    width: 100px;
+    height: 50px;
+    cursor:pointer; 
+    cursor:hand;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

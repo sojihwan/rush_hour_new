@@ -1,3 +1,5 @@
+import resh from "./rush_hour_js_new_conplet_story_inprot";
+
 let map=
   [
     [0,0,0,0,0,0,0,0,0,0],
@@ -21,108 +23,45 @@ let all_information =
   ];
   let x;
   let y;
-  all_information[0][0][0].addEventListener("dblclick", function (e) {
+  all_information[resh][0][0].addEventListener("dblclick", function (e) {
     for(let i=0;i<=all_information.length-1;i++){
-      if(all_information[0][0][0]==all_information[i][0][0]){
+      if(all_information[resh][0][0]==all_information[i][0][0]){
         continue;
       }
-      x=all_information[0][1][0]+all_information[0][2][1];
-      y=all_information[0][1][1];
-      if(map[y][x+1]==1){
+      x=all_information[resh][1][0]+all_information[resh][2][1];
+      y=all_information[resh][1][1];
+      if(map[y][x+all_information[resh][2][1]]==1){
         return 0;
       }
     }
-    all_information[0][1][0]=all_information[0][1][0]+1;
-    all_information[0][0][0].style.left=all_information[0][1][0]*50;
-    if(all_information[0][1][0]+all_information[0][2][1]==10){
-      all_information[0][1][0]=all_information[0][1][0]-1;
+    all_information[resh][1][0]=all_information[resh][1][0]+1;
+    all_information[resh][0][0].style.left=all_information[resh][1][0]*50;
+    map[all_information[resh][1][0]][[all_information[resh][1][0]]]=1;
+    map[all_information[resh][1][0]][[all_information[resh][1][0]-1]]=0;
+    if(all_information[resh][1][0]+all_information[resh][2][1]==10){
+      all_information[resh][1][0]=all_information[resh][1][0]-1;
     }
   });
-  all_information[0][0][0].addEventListener("contextmenu", function (e) {
+  all_information[resh][0][0].addEventListener("contextmenu", function (e) {
     e.preventDefault();
     for(let i=0;i<=all_information.length-1;i++){
-      if(all_information[0][0][0]==all_information[i][0][0]){
+      if(all_information[resh][0][0]==all_information[i][0][0]){
         continue;
       }
-      x=all_information[0][1][0];
-      y=all_information[0][1][1];
+      x=all_information[resh][1][0];
+      y=all_information[resh][1][1];
       if(map[y][x-1]==1){
         return 0;
       }
     }
-      all_information[0][1][0]=all_information[0][1][0]-1;
-      all_information[0][0][0].style.left=all_information[0][1][0]*50;
-      if(all_information[0][1][0]==0){
-        all_information[0][1][0]=all_information[0][1][0]+1;
+      all_information[resh][1][0]=all_information[resh][1][0]-1;
+      all_information[resh][0][0].style.left=all_information[resh][1][0]*50;
+      map[all_information[resh][1][0]][[all_information[resh][1][0]]]=1;
+      map[all_information[resh][1][0]][[all_information[resh][1][0]+all_information[resh][2][1]]]=0;
+      if(all_information[resh][1][0]==0){
+        all_information[resh][1][0]=all_information[resh][1][0]+1;
       }
   });
-  all_information[2][0][0].addEventListener("dblclick", function (e) {
-    for(let i=0;i<=all_information.length-1;i++){
-      if(all_information[2][0][0]==all_information[i][0][0]){
-        continue;
-      }
-      x=all_information[2][1][0]+all_information[2][2][1];
-      y=all_information[2][1][1];
-      if(map[y][x+1]==1){
-        return 0;
-      }
-    }
-    all_information[2][1][0]=all_information[2][1][0]+1;
-    all_information[2][0][0].style.left=all_information[2][1][0]*50;
-    if(all_information[2][1][0]+all_information[2][2][1]==10){
-      all_information[2][1][0]=all_information[2][1][0]-1;
-    }
-  });
-  all_information[2][0][0].addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-    for(let i=0;i<=all_information.length-1;i++){
-      if(all_information[2][0][0]==all_information[i][0][0]){
-        continue;
-      }
-      x=all_information[2][1][0];
-      y=all_information[2][1][1];
-      if(map[y][x-1]==1){
-        return 0;
-      }
-    }
-      all_information[2][1][0]=all_information[2][1][0]-1;
-      all_information[2][0][0].style.left=all_information[2][1][0]*50;
-      if(all_information[2][1][0]==0){
-        all_information[2][1][0]=all_information[2][1][0]+1;
-      }
-  });
-  all_information[3][0][0].addEventListener("dblclick", function (e) {
-    for(let i=0;i<=all_information.length-1;i++){
-      if(all_information[3][0][0]==all_information[i][0][0]){
-        continue;
-      }
-      x=all_information[3][1][0]+all_information[3][2][1];
-      y=all_information[3][1][1];
-      if(map[y][x+1]==1){
-        return 0;
-      }
-    }
-    all_information[3][1][0]=all_information[3][1][0]+1;
-    all_information[3][0][0].style.left=all_information[3][1][0]*50;
-    if(all_information[3][1][0]+all_information[3][2][1]==10){
-      all_information[3][1][0]=all_information[3][1][0]-1;
-    }
-  });
-  all_information[3][0][0].addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-    for(let i=0;i<=all_information.length-1;i++){
-      if(all_information[3][0][0]==all_information[i][0][0]){
-        continue;
-      }
-      x=all_information[3][1][0];
-      y=all_information[3][1][1];
-      if(map[y][x-1]==1){
-        return 0;
-      }
-    }
-      all_information[3][1][0]=all_information[3][1][0]-1;
-      all_information[3][0][0].style.left=all_information[3][1][0]*50;
-      if(all_information[3][1][0]==0){
-        all_information[3][1][0]=all_information[3][1][0]+1;
-      }
-  });
+
+
+  

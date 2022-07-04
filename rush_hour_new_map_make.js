@@ -20,6 +20,7 @@ let size_x;
 let size_y;
 let all_information;
 function getLeft(o) {
+    
     return parseInt(o.style.left.replace('px', ''));
 }
 function getTop(o) {

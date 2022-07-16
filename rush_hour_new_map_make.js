@@ -25,6 +25,7 @@ function getLeft(o) {
 
 
 
+
     
     return parseInt(o.style.left.replace('px', ''));
 }

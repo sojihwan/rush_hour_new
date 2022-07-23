@@ -22,13 +22,6 @@ let all_information;
 function getLeft(o) {
 
     
-
-
-
-
-
-
-    
     return parseInt(o.style.left.replace('px', ''));
 }
 function getTop(o) {
